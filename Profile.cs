@@ -48,7 +48,7 @@ package NW_ProfileCreation
 				%file.writeLine("Losses: "@%this.getLosses());
 				%file.close();
 				%file.delete();
-				NW_NotifyPlayer(%this,"Your profile has been created, thank you and enjoy this server. :)","Profile Creation Notification");
+				NW_NotifyPlayer(%this,"Your profile has been created, thank you and enjoy this server.","Profile Creation Notification");
 			}
 		}
 	}
